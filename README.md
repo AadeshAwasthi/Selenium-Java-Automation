@@ -71,6 +71,16 @@ mvn test -Dheadless=true
 
 Selenium 4 downloads the correct ChromeDriver automatically (Selenium Manager), so no driver setup is needed.
 
+## Test Result
+
+| Item | Result |
+|---|---|
+| Test methods | 15 |
+| Test executions | 19 (the invalid login test runs with 5 data sets) |
+| Passed | 19 |
+| Failed | 0 |
+| Browser | Google Chrome (headless) |
+
 ## Concepts Shown
 
 - Page Object Model (locators kept separate from tests)
